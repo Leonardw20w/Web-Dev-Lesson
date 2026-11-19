@@ -1,0 +1,17 @@
+from flask import Flask, render_template
+
+# Create flask application
+app = Flask(__name__)
+
+# Homepage route
+@app.route('/')
+def home():
+    return render_template('index.html')
+
+# Ingredients route
+@app.route('/ingredients')
+def ingredients():
+    return render_template('ingredients.html')
+# Run the application
+if __name__ == '__main__':
+    app.run(debug=True)
