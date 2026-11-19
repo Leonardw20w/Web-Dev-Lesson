@@ -1,27 +1,98 @@
-.home-page {
+body {
     font-family: Arial, sans-serif;
-    background-color: #cc0052;
+    font-color: #000000;
+    background-color: #808080;
     margin: 0;
     padding: 0;
-    padding: 0;
-    background-image: url("sunset.png");
-    background-size: 100% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    min-height: 100vh;
-    margin: 0;
+    padding-top: 60px;
 }
 
+.container {
+    background-color: white;
+    width: 400px;
+    margin: 120px auto;
+    padding: 40px;
+    text-align: center;
+    border-radius: 12px;
+}
 
 h1 {
-    color: #f5fffa;
-}
-
-h2 {
-    color: #f5fffa;
+    color: #000000;
 }
 
 p {
-    color: #f5fffa;
+    color: #000000;
+}
+
+button {
+    color: #000000;
+}
+
+a {
+    color: #000000;
+}
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: #444444;
+    border-radius: 5px;
+}
+.navbar {
+    background-color: #222222;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #222222;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #dddddd;
+}
+
+.show {
+    display: block;
+}
+.dropdown {
+    position: relative;
+    margin-left: auto;
 }

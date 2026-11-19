@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="device-width, initial-scale=1.0">
+
+    <title>My groovy first web app using python!</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body class="home-page">
+    <nav class="navbar">
+
+        <a href="/">Home</a>
+
+        <div class="dropdown">
+            <button class="dropbtn" onclick="toggleDropdown()">
+                About ▼
+            </button>
+
+            <div class="dropdown-content" id="myDropdown">
+                <a href="/about">About me</a>
+                <a href="/contact">Contact</a>
+                <a href="/information">Information</a>
+            </div>
+        </div>
+
+    -</nav>
+    <div class="container">
+
+        <h1>Powells Power!</h1>
+        <p> Learn more using the dropdown menus!</p>
+
+        <button class="big-button" onclick="alert('A failure in 6 years')">
+           <img src="{{ url_for('static', filename='DoomsDale.png') }}" alt="DoomsDale">
+            30/8/20
+        </button>
+        <a href="/about">30/8/26</a>
+    </div>
+<script>
+function toggleDropdown() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+</script>
+</body>
+</html>
