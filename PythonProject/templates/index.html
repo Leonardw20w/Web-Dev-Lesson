@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="device-width, initial-scale=1.0">
+
+    <title>My groovy first web app using python!</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body class="home-page">
+    <div class="container">
+
+        <h1>What is a low tier god,</h1>
+        <p> To a high tier human?</p>
+
+        <button class="big-button" onclick="alert('A failure in 6 years')">
+           <img src="{{ url_for('static', filename='DoomsDale.png') }}" alt="DoomsDale">
+            30/8/20
+        </button>
+        <a href="/about">30/8/26</a>
+    </div>
+
+</body>
+</html>
