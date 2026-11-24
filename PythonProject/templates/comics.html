@@ -10,16 +10,24 @@
 
     <link rel="stylesheet"
           href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .center {
+            display: flex;
+            align-items: center;         /* Vertical center */
+            justify-content: center;     /* Optional: Horizontal center */
+            height: 100vh;               /* Full viewport height */
+        }
+    </style>
 </head>
 <body>
     <div class="comicTitle">
         Check out our comics!!
     </div>
     <div class="comicBox1">
-        <img src="static/comic1.jpg" style="position:absolute; top:200px; left:60px;" width="850px" height="auto">
+        <img src="static/comic1.jpg" width="850px" height="auto" >
     </div>
     <div class="comicBox2">
-        <img src="static/comic1.jpg" style="position:absolute; top:200px; right:60px;" width="850px" height="auto">
+        <img src="static/comic1.jpg" width="850px" height="auto">
     </div>
 
 </body>
