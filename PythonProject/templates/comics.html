@@ -11,24 +11,43 @@
     <link rel="stylesheet"
           href="{{ url_for('static', filename='style.css') }}">
     <style>
-        .center {
-            display: flex;
-            align-items: center;         /* Vertical center */
-            justify-content: center;     /* Optional: Horizontal center */
-            height: 100vh;               /* Full viewport height */
+        figure {
+            position: relative;
         }
+        figure img {
+            display: block;
+        }
+        figcaption {
+            background: rgba(0, 0, 0, 0);
+            color: #FFF;
+            position: absolute;
+            bottom: 1;
+            left: 10;
+            right: 10;
+}
     </style>
 </head>
 <body>
     <div class="comicTitle">
         Check out our comics!!
+        <br>
+        <a href="/">Back</a>
     </div>
     <div class="comicBox1">
-        <img src="static/comics/comic1.jpg" width="850px" height="auto" alt="Comic Issue: 1">
+        <figure>
+            <a href="/comics/1to25">
+                <img src="static/comics/comic1.jpg" style="position:relative; right:40px; top:20px;" width="850px" height="auto" alt="Comic Issue: 2">
+                <figcaption><br>Click for comics 1-25!!</figcaption>
+            </a>
+        </figure>
     </div>
-    <a class="comicButton" href="/comics/1to25">Comics page</a>
     <div class="comicBox2">
-        <img src="static/comics/comic2.jpg" width="850px" height="auto" alt="Comic Issue: 2">
+        <figure>
+            <a href="/comics/26to50">
+                <img src="static/comics/comic26.jpg" style="position:relative; right:40px; top:20px;" width="850px" height="auto" alt="Comic Issue: 2">
+                <figcaption><br>Click for comics 26-50!!</figcaption>
+            </a>
+        </figure>
     </div>
 
 </body>

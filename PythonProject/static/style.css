@@ -1,5 +1,5 @@
 .home-page {
-    font-family: Arial, sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     background-color: #cc0052;
     margin: 0;
     padding: 0;
@@ -14,14 +14,17 @@
 }
 
 .container {
+    font-family: 'Trebuchet MS', sans-serif;
     background-color: antiquewhite;
 }
 
 .comicButton {
+    font-family: 'Trebuchet MS', sans-serif;
     background-color: antiquewhite;
 }
 
 .comicTitle {
+    font-family: 'Trebuchet MS', sans-serif;
     background-color: #dc143c;
     width: auto;
     margin: 10px 10px;
@@ -34,6 +37,7 @@
 }
 
 .comicBox1 {
+    font-family: 'Trebuchet MS', sans-serif;
     background-color: #dc143c;
     display: flex;
     justify-items: center;
@@ -49,18 +53,14 @@
 
 .img:hover{
     color: #424242;
-  -webkit-transition: all .3s ease-in;
-  -moz-transition: all .3s ease-in;
-  -ms-transition: all .3s ease-in;
-  -o-transition: all .3s ease-in;
-  transition: all .3s ease-in;
-  opacity: 1;
-  transform: scale(1.15);
-  -ms-transform: scale(1.15); /* IE 9 */
-  -webkit-transform: scale(1.15); /* Safari and Chrome */
+    transition: all .3s ease-in;
+    opacity: 1;
+    transform: scale(1.5);
+    margin-right: 10px;
 }
 
 .comicBox2 {
+    font-family: 'Trebuchet MS', sans-serif;
     background-color: #dc143c;
     display: flex;
     justify-items: center;
@@ -74,6 +74,7 @@
 }
 
 .comicsMore {
+    font-family: 'Trebuchet MS', sans-serif;
     background-color: #dc143c;
     display: flex;
     justify-items: center;
@@ -85,11 +86,3 @@
     padding: 40px;
     border-radius: 12px;
 }
-
-.imgGood {
-    max-width: 300px;
-    max-height: 300px;
-    width: auto;
-    height: auto;
-}
-

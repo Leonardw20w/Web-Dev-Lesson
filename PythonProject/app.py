@@ -8,15 +8,18 @@ app=Flask(__name__)
 def home():
     return render_template("index.html")
 
+# Other pages routes
 @app.route("/comics")
 def comics():
     return render_template("comics.html")
 
 @app.route("/comics/1to25")
 def comics1to25():
-    return render_template("comics1to25.html")
+    return render_template("1to25.html")
 
-# Other pages routes
+@app.route("/comics/26to50")
+def comics26to50():
+    return render_template("26to50.html")
 
 
 # Run the application
