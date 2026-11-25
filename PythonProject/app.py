@@ -12,6 +12,10 @@ def home():
 def comics():
     return render_template("comics.html")
 
+@app.route("/comics/1to25")
+def comics1to25():
+    return render_template("comics1to25.html")
+
 # Other pages routes
 
 
