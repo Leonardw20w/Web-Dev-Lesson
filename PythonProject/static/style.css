@@ -55,7 +55,7 @@
     color: #424242;
     transition: all .3s ease-in;
     opacity: 1;
-    transform: scale(1.5);
+    transform: scale(2);
     margin-right: 10px;
 }
 
@@ -76,7 +76,7 @@
 .comicsMore {
     font-family: 'Trebuchet MS', sans-serif;
     background-color: #dc143c;
-    display: flex;
+    display: inline-block;
     justify-items: center;
     text-align: center;
     width: 94vw;
