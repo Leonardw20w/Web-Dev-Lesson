@@ -1,0 +1,133 @@
+.home-page {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    /*background-image: url("sunset.png");*/
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+
+body {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: antiquewhite;
+}
+
+.comicButton {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: antiquewhite;
+}
+
+.homeTitle {
+    display: flex;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #dc143c;
+    justify: center;
+    width: 350px;
+    margin-left: 300px;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 12px;
+    float: left; /* add this */
+}
+
+.salesPitch {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #dc143c;
+    margin: -200px 1000px;
+    width: 850px;
+    height: 770px;
+    padding: 40px;
+    border-radius: 12px;
+    float: left; /* add this */
+}
+
+.selectMenu {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #dc143c;
+    text-align: center;
+    margin: 10px;
+    width: 1900px;
+    height: 50px;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+
+.comicTitle {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #dc143c;
+    width: auto;
+    margin: 10px 10px;
+    padding: 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 12px;
+}
+
+.comicBox1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #dc143c;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    width: 850px;
+    height: 650px;
+    margin-left: 10px;
+    margin-right: auto;
+    padding: 40px;
+    border-radius: 12px;
+    float: left; /* add this */
+}
+
+.img:hover{
+    color: #424242;
+    transition: all .3s ease-in;
+    opacity: 1;
+    transform: scale(2);
+    margin-right: 10px;
+}
+
+.comicBox2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #dc143c;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    width: 850px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.comicsMore {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #dc143c;
+    display: inline-block;
+    justify-items: center;
+    text-align: center;
+    width: 94vw;
+    height: 100vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 40px;
+    border-radius: 12px;
+}
